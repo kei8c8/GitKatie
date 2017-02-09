@@ -138,9 +138,9 @@ int main(void) {
 }
 
 float circleArea(float radius){
-	float area;
-	area = (float)(pi*radius*radius); //calculates area
+	float cir;
+	cir = (float)(pi*radius*2); //calculates area
 
-	return area; //returns area to main
+	return cir; //returns area to main
 }
 
